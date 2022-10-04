@@ -17,7 +17,8 @@ const CartCounting = () => {
     };
 
     return(
-        <div>
+        <div className='page-body'>
+            <h2>Cart Counting</h2>
             <h2>{counter}</h2>
             <button className='button' onClick={RemoveHandle}>Remove Item</button>
             <button className='button' onClick={AddHandle}>Add Item</button>

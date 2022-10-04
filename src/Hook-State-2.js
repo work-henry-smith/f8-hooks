@@ -13,8 +13,9 @@ const RandomGift = () => {
     };
 
     return (
-        <div>
-            <h2>{gift}</h2>
+        <div className='page-body'>
+            <h2>Random Gifts</h2>
+            <p>{gift}</p>
             <button className='button' onClick={GiftHandle}>Receive Gift</button>
         </div>
     )
