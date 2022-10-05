@@ -10,7 +10,7 @@ const FetchingData = () => {
             <h2>Contents List</h2>
             <ul>
                 {posts.map(post => (
-                    <li key={post.ID}>{post.title}</li>
+                    <li key={post.id}>{post.title}</li>
                 ))}
             </ul>
         </div>
