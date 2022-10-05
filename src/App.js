@@ -6,6 +6,7 @@ import RadioCheck from './Hook-State-4';
 import TodoList from './Hook-State-6';
 import Toggle from './Hook-State-7';
 import TitleSetting from './Hook-Effect-1';
+import FetchingData from './Hook-Effect-2';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <TodoList />
       <Toggle />
       <TitleSetting />
+      <FetchingData />
     </div>
   );
 }
