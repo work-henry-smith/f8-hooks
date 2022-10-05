@@ -42,11 +42,11 @@ const RadioCheck = () => {
 
     return (
         <div className='page-body'>
-            <h2>Radio Check</h2>
+            <h2>Radio Check for Picking Courses!</h2>
             {items.map(item => (
                 <div key={item.id}>
                     <input type='radio' onChange={() => setChecked(item.id)} checked={checked === item.id} />
-                    {item.course}
+                    {`${item.course} - ${item.fee} ${item.currency}`}
                 </div>
             ))}
             <button className='button' onClick={RegisterHandle}>Register</button>

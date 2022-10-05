@@ -3,6 +3,7 @@ import CartCounting from './Hook-State-1';
 import RandomGift from './Hook-State-2';
 import FormSubmitting from './Hook-State-3';
 import RadioCheck from './Hook-State-4';
+import CheckBox from './Hook-State-5';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <RandomGift />
       <FormSubmitting />
       <RadioCheck />
+      <CheckBox />
     </div>
   );
 }
