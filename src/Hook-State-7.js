@@ -2,7 +2,7 @@ import {useState} from 'react';
 import CheckBox from './Hook-State-5';
 
 const Toggle = () => {
-    const [display, setDisplay] = useState(true);
+    const [display, setDisplay] = useState(false);
     
     return (
         <div className='page-body'>
