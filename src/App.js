@@ -9,6 +9,7 @@ import TitleSetting from './Hook-Effect-1';
 import FetchingData from './Hook-Effect-2';
 import TabChanging from './Hook-Effect-3';
 import ResizeWindow from './Hook-Effect-4';
+import Terminate from './Terminate';
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
       <Toggle />
       <TitleSetting />
       <FetchingData />
-      <TabChanging />
       <ResizeWindow />
+      <TabChanging />
+      <Terminate />
     </div>
   );
 }
