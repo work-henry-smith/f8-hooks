@@ -10,6 +10,7 @@ import FetchingData from './Hook-Effect-2';
 import TabChanging from './Hook-Effect-3';
 import ResizeWindow from './Hook-Effect-4';
 import Terminate from './Terminate';
+import PreviewAvatar from './Hook-Effect-6';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <ResizeWindow />
       <TabChanging />
       <Terminate />
+      <PreviewAvatar />
     </div>
   );
 }
