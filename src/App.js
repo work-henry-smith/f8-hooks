@@ -11,11 +11,12 @@ import TabChanging from './Hook-Effect-3';
 import ResizeWindow from './Hook-Effect-4';
 import Terminate from './Terminate';
 import PreviewAvatar from './Hook-Effect-6';
+import ChatBox from './Hook-Effect-7';
 
 function App() {
   return (
     <div className="App">
-      <h1>Learning React Hooks!</h1>
+      <h1 className='App-header'>Learning React Hooks!</h1>
       <CartCounting />
       <RandomGift />
       <FormSubmitting />
@@ -28,6 +29,7 @@ function App() {
       <TabChanging />
       <Terminate />
       <PreviewAvatar />
+      <ChatBox />
     </div>
   );
 }
